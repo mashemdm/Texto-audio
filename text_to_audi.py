@@ -3,7 +3,7 @@ import os
 import time
 import glob
 import os
-from gtts import GTTS
+from gtts import gTTS
 from PIL import Image
 
 st.title("Interfases Multimodales.")
