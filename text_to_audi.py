@@ -6,13 +6,17 @@ import os
 from gtts import gTTS
 from PIL import Image
 
-<style>
-body {
-  background: #ff0099; 
-  background: -webkit-linear-gradient(to right, #ff0099, #493240); 
-  background: linear-gradient(to right, #ff0099, #493240); 
-}
-</style>
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #E6F7FF;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 st.title("Interfases Multimodales.")
 image = Image.open('text_to_audio.png')
