@@ -6,19 +6,9 @@ import os
 from gtts import gTTS
 from PIL import Image
 
-st.markdown(
-    
-    <style>
-    body {
-        background-color: #E6F7FF;
-    }
-    </style>
-    ,
-    unsafe_allow_html=True,
-)
 
 
-st.title("Interfases Multimodales.")
+st.title("Texto a audio Marcela DM.")
 image = Image.open('text_to_audio.png')
 
 st.image(image, width=200)
