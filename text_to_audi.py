@@ -40,7 +40,7 @@ def text_to_speech(text, tld):
     return my_file_name, text
 
 
-#display_output_text = st.checkbox("Verifica el texto")
+display_output_text = st.checkbox("Verifica el texto")
 
 if st.button("convertir"):
     result, output_text = text_to_speech(text, tld)
