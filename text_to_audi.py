@@ -6,9 +6,12 @@ import os
 from gtts import gTTS
 from PIL import Image
 
-<style>
+st.markdown(
+ <style>
 background: rgba(0,0,0,0);
 </style>
+)
+
 
 st.title("Interfases Multimodales.")
 image = Image.open('text_to_audio.png')
