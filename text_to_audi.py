@@ -11,6 +11,8 @@ image = Image.open('text_to_audio.png')
 
 st.image(image, width=200)
 
+backgroundColor = "#F0F0F0"
+
 
 try:
     os.mkdir("temp")
